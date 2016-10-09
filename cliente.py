@@ -3,7 +3,7 @@ from PyQt4 import QtGui, QtCore, uic
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
  
-clienteGui = uic.loadUiType("cliente.ui")[0] #Se carga la interfaz de tipo ui, esta vez del cliente.
+clienteGui = uic.loadUiType("cliente2.ui")[0] #Se carga la interfaz de tipo ui, esta vez del cliente.
 
 class Cliente(QtGui.QMainWindow, clienteGui):
 
