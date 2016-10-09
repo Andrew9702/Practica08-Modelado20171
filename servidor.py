@@ -3,7 +3,7 @@ from PyQt4 import QtGui, QtCore, uic
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
  
-servidorUi = uic.loadUiType("servidor.ui")[0] #Se carga la interfaz de tipo ui del servidor
+servidorUi = uic.loadUiType("servidor2.ui")[0] #Se carga la interfaz de tipo ui del servidor
  
 class Servidor(QtGui.QMainWindow, servidorUi):
 
